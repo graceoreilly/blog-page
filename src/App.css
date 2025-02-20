@@ -110,6 +110,10 @@ button:hover {
     transform: scale(1.05);
 }
 
+/* .resources {
+    font-size: 1em;
+} */
+
 
 /* Media query to stretch containers on larger screens */
 @media (min-width: 1024px) {

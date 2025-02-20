@@ -47,8 +47,8 @@ function App() {
           <h2>Type Interface: Setting Expectations Early</h2>
           <h3>Implicit vs. Explicit Typing</h3>
           <p>TypeScript is smart and can infer types when you don’t explicitly specify them. However, sometimes it's best to be explicit about your types to avoid confusion.</p>
-          <img src="/src/images/explicit_type_example.png" alt="code example showing explicit types" className='code-snippet'/>
-          <img src="/src/images/implicit_type_exampe.png" alt="code example showing implicit types" className='code-snippet' />
+          <img src="./images/explicit_type_example.png" alt="code example showing explicit types" className='code-snippet'/>
+          <img src="./images/implicit_type_exampe.png" alt="code example showing implicit types" className='code-snippet' />
           {/* <p className="tip">💡 Tip: Being explicit about types is like defining your relationship early—it prevents misunderstandings later!</p> */}
         </div>
 
@@ -57,34 +57,34 @@ function App() {
           <p>In typescript you need to be clear about what kind of elements belong in an array, this can be done using standard syntax "number[ ]" or using a generic "&lt; string &gt;"
 
           </p>
-          <img src="/src/images/array_example.png" alt="code example showing an example of using typescript in an array" className='code-snippet' />
+          <img src="./images/array_example.png" alt="code example showing an example of using typescript in an array" className='code-snippet' />
           {/* <p className="tip">💡 Tip: Defining types for arrays ensures you don’t end up with unexpected values.</p> */}
         </div>
 
         <div className="card">
           <h2>Union Types: Keeping Your Options Open</h2>
           <p>Union types let a variable accept multiple types.</p>
-         <img src="/src/images/union_types_example.png" alt="a code example showing union types in typescript" className='code-snippet' />
+         <img src="./images/union_types_example.png" alt="a code example showing union types in typescript" className='code-snippet' />
         </div>
 
         <div className="card">
           <h2>Functions in TypeScript: Avoiding Heartbreak with Proper Returns</h2>
           <p>Functions in TypeScript expect specific parameters and return types.</p>
-          <img src="/src/images/function_example.png" alt="a code example showing function types in typescript" className='code-snippet' />
+          <img src="./images/function_example.png" alt="a code example showing function types in typescript" className='code-snippet' />
           {/* <p className="tip">💡 Tip: In TypeScript, if you expect two parameters, you must provide two—no unexpected guests at the dinner table!</p> */}
         </div>
 
         <div className="card">
           <h2>The any Type... The Major Red Flag 🚩</h2>
           <p>Using the any type can undermine TypeScript's type safety guarantees—might as well go back to your ex, JavaScript!</p>
-          <img src="/src/images/any_type_example.png" alt="a code example showing the any type in typescript" className='code-snippet' />
+          <img src="./images/any_type_example.png" alt="a code example showing the any type in typescript" className='code-snippet' />
           {/* <p className="tip">💡 Tip: Using <code>any</code> too much is like dating someone who refuses to define the relationship. Unpredictable and risky!</p> */}
         </div>
 
         <div className="card">
           <h2>Your Perfect Match: Custom Types and Interfaces</h2>
           <p>In TypeScript, you can define your own types to ensure compatibility. An interface allows you to specify the structure of an object, including its properties and their types.</p>
-          <img src="/src/images/interface_example.png" alt="a code example showing the any type in typescript" className='code-snippet' />
+          <img src="./images/interface_example.png" alt="a code example showing the any type in typescript" className='code-snippet' />
           {/* <p className="tip">💡 Tip: Custom types ensure that every object meets your desired criteria, just like a well-curated dating profile!</p> */}
         </div>
 
@@ -99,6 +99,12 @@ function App() {
           </ul>
           <p>While JavaScript might be fun for quick flings, TypeScript is the long-term partner you can trust. So, if you’re ready for a stable, error-free relationship with your code, it’s time to commit to TypeScript!</p>
         </div>
+
+        {/* <div className='card'>
+          <p className='resources'>Resources Used:</p>
+          <a href="https://www.freecodecamp.org/news/learn-typescript-basics/">FreeCodeCamp TypeScript Basics</a><br></br>
+          <a href="https://www.youtube.com/watch?v=d56mG7DezGs">Programming with Mosh</a>
+        </div> */}
         
       </div>
     </>
