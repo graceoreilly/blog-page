@@ -87,6 +87,7 @@ function App() {
           </ul>
           <p>While JavaScript might be fun for quick flings, TypeScript is the long-term partner you can trust. So, if you’re ready for a stable, error-free relationship with your code, it’s time to commit to TypeScript!</p>
         </div>
+        
       </div>
     </>
   );
