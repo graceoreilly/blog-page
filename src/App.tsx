@@ -44,7 +44,7 @@ function App() {
         </div>
 
         <div className="card">
-          <h2>Type Interface: Setting Expectations Early</h2>
+          <h2>Explicit vs Implicit Types: Defining Expectations Early</h2>
           <h3>Implicit vs. Explicit Typing</h3>
           <p>TypeScript is smart and can infer types when you don’t explicitly specify them. However, sometimes it's best to be explicit about your types to avoid confusion.</p>
           <img src="./images/explicit_type_example.png" alt="code example showing explicit types" className='code-snippet'/>
