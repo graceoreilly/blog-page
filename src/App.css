@@ -111,6 +111,7 @@ ul li {
     border-radius: 20px;
     border: 10px, solid, white;
     padding: 5px;
+    box-sizing: border-box;
 }
 
 button {
