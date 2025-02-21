@@ -1,8 +1,10 @@
 import './App.css'
+import HeartTrail from './components/HeartTrail';
 
-function App() {
+function App()  {
   return (
     <>
+    <HeartTrail />
       <div className="container">
         <h1 className="title">Finding Your Perfect Type: A TypeScript Love Story</h1>
         
